@@ -1,0 +1,27 @@
+.primary {
+    padding-left: 50px;
+    width: 600px;
+    margin: 0 auto;
+  }
+  .container {
+    flex-direction: column;
+    justify-content: flex-start;
+    display: flex;
+    margin-left: 20px;
+  }
+  .label {
+    display: block;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 5px;
+  }
+  .input {
+    font-size: 15px;
+  }
+  .input:hover {
+    border: 2px solid rgb(69, 156, 249);
+    border-radius: 5px;
+  }
+  .input:focus {
+    border: 2px solid rgb(69, 156, 249);
+  }
